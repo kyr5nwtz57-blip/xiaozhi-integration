@@ -1,0 +1,29 @@
+# 凭证（绝不提交）
+config.json
+ota_response.json
+*.key
+broker.json
+.env
+
+# 音频取证
+*.pcm
+*.wav
+*.aiff
+*.mp3
+
+# 日志
+*.log
+*.log.1
+
+# 模型（体积大，按需自行下载）
+*.onnx
+models/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store
